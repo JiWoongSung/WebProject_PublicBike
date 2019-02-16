@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+
+html{
+   height: 100%;
+}
+header{
+	background-color:#6495ED/* #1E82FF*/;
+	color: white;
+	margin : 0px;
+	text-align: center;
+	font-size: 15pt;
+	height: 30px;
+}
+header>a,header>a:link,header>a:visited{
+   text-decoration: none;
+   color: white;
+}
+
+body {
+ 	margin: 0px;
+	/* background-image: url(back2.png);
+	background-repeat: no-repeat; */
+	max-height: 100%;
+	/* background-attachment: fixed;
+	background-position: center; */
+	text-align:center;
+}
+td{
+	font-weight:bold;
+}
+
+
+section{
+/* 	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+ */	height : 550px;
+	border-radius:22px;
+	overflow:scroll;
+	opacity: 0.95;
+	
+}
+.btnClass{
+	text-align:right;
+}
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+}
+
+h2 {
+}
+
+.login {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 396px;
+	margin-bottom: 10px;
+	transition: width 0.5s ease-out;
+
+}
+.login:focus {
+	width: 410px;
+}
+
+form>p {
+	text-align: left;
+	margin-bottom: 20px;
+}
+form p a{
+	text-decoration: none;
+	color: red;
+}
+
+.button {
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+
+}
+footer{
+	background-color: #6495ED/*#1E82FF;*/;
+	color: white;
+	position:fixed;
+    left:0px;
+    bottom:0px;
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	font-size: 13pt;
+}
+
+footer span{
+	color: yellow;
+}
+
+table.type09 {
+    border-collapse: collapse;
+    text-align:center;
+    line-height: 1.5;
+
+}
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type09 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type09 td {
+    width: 350px;
+    padding: 10px;
+    /* vertical-align: top; */
+    border-bottom: 1px solid #ccc;
+}
+
+

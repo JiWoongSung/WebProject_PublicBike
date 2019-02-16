@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#placeDiv{
+	max-height : 500px;
+	overflow:scroll;
+}
